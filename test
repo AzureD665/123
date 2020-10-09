@@ -1,0 +1,29 @@
+ModdingModCooker: Cook (Windows):   Execution of commandlet took:  4.68 seconds
+ModdingModCooker: Cook (Windows):   LogShaderCompilers: Display: Shaders left to compile 0
+LogSlate: Took 0.005438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+ModdingModCooker: Cook (Windows):   FPlatformMisc::RequestExit(1)
+ModdingModCooker: Cook (Windows): Took 99.0463453s to run UE4Editor-Cmd.exe, ExitCode=0
+ModdingModCooker: Cook (Windows): ********** COOK COMMAND COMPLETED **********
+ModdingModCooker: Cook (Windows): ********** STAGE COMMAND STARTED **********
+ModdingModCooker: Cook (Windows): Creating Staging Manifest...
+ModdingModCooker: Cook (Windows): Cleaning Stage Directory: F:\Epic Games\SquadEditor\Squad\Plugins\Mods\OISC_Logar_Valley_CAAS_V1\Saved\StagedBuilds\WindowsNoEditor
+ModdingModCooker: Cook (Windows): Creating pak using streaming install manifests.
+ModdingModCooker: Cook (Windows): ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+ModdingModCooker: Cook (Windows):        Parameter name: index
+ModdingModCooker: Cook (Windows):           at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+ModdingModCooker: Cook (Windows):           at System.Collections.Generic.List`1.get_Item(Int32 index)
+ModdingModCooker: Cook (Windows):           at Project.CreatePaksUsingChunkManifests(ProjectParams Params, DeploymentContext SC)
+ModdingModCooker: Cook (Windows):           at Project.ApplyStagingManifest(ProjectParams Params, DeploymentContext SC)
+ModdingModCooker: Cook (Windows):           at Project.CopyBuildToStagingDirectory(ProjectParams Params)
+ModdingModCooker: Cook (Windows):           at BuildCookRun.DoBuildCookRun(ProjectParams Params)
+ModdingModCooker: Cook (Windows):           at BuildCookRun.ExecuteBuild()
+ModdingModCooker: Cook (Windows):           at AutomationTool.BuildCommand.Execute()
+ModdingModCooker: Cook (Windows):           at AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands)
+ModdingModCooker: Cook (Windows):           at AutomationTool.Automation.Process(String[] Arguments, StartupTraceListener StartupListener)
+ModdingModCooker: Cook (Windows):           at AutomationTool.Program.MainProc(String[] Arguments, StartupTraceListener StartupListener)
+ModdingModCooker: Cook (Windows):           at AutomationTool.Program.<>c__DisplayClass1_0.<Main>b__2()
+ModdingModCooker: Cook (Windows):           at AutomationTool.InternalUtils.RunSingleInstance(Func`1 Main)
+ModdingModCooker: Cook (Windows):           at AutomationTool.Program.Main(String[] Arguments)
+ModdingModCooker: Cook (Windows):        (see F:\Epic Games\SquadEditor\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\Log.txt for full exception trace)
+ModdingModCooker: Cook (Windows): AutomationTool exiting with ExitCode=1 (Error_Unknown)
+ModdingModCooker: Cook (Windows): BUILD FAILED
